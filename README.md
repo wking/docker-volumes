@@ -23,7 +23,7 @@ the host or have access to the host's filesystem for it to work.
 
 The export function is horribly inefficient, for a couple of reasons:
 
-1) The tools is inteded to be used remotely, so there is no direct access to the
+1) The tools is intended to be used remotely, so there is no direct access to the
 host FS, and as such the volumes or container filesystems.
 
 2) The `docker cp` command, and the corresponding APIs, do not support volumes.
